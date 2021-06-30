@@ -1,4 +1,4 @@
-# myvue 一个Demo
+# myvue 一个移动手机商城web Demo
 
 > A Vue.js project
 
