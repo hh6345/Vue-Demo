@@ -7,18 +7,20 @@ Vue.prototype.$axios=axios;
 import App from './App'
 import router from './router'
 
-import { Button,Cell,Swipe,SwipeItem,Header,Checklist,MessageBox} from 'mint-ui'
+import { Button,Cell,Swipe,SwipeItem,Header,Checklist,Search } from 'mint-ui'
 Vue.component(Button.name, Button)
 Vue.component(Cell.name, Cell)
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 Vue.component(Header.name, Header);
 Vue.component(Checklist.name, Checklist);
+Vue.component(Search.name, Search);
 
 
 import { InfiniteScroll } from 'element-ui';
 // Vue.component(InfiniteScroll.name, InfiniteScroll );
-Vue.use(InfiniteScroll) 
+Vue.use(InfiniteScroll)
+
 
 Vue.config.productionTip = false
 
